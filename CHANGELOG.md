@@ -7,6 +7,17 @@ release notes.
 The format is [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versions follow
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.5.0] - 2026-08-30
+
+### Added
+
+- **Pushover as an alert channel**, alongside ntfy, Telegram and Discord. Create an application
+  at [pushover.net/apps/build](https://pushover.net/apps/build), then paste its API token and your
+  user key into the Alerts tab in Settings. Defect snapshots arrive as an attachment. Priority is
+  yours to pick and defaults to High, which cuts through the quiet hours set on the device; it
+  applies to every notice the channel carries, warnings and recoveries included. It works in both
+  hub and local mode.
+
 ## [2.4.0] - 2026-08-24
 
 ### Added
